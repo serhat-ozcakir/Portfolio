@@ -1,0 +1,56 @@
+#contact-sections{
+    max-width: 1440px; 
+    width: 100%;
+}
+
+.section-title{
+    color: #5988FF;
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 50px;
+   
+}
+
+.contact-info{
+    color:#5988FF;
+    font-size: 30px;
+    font-weight: 400;
+    &__text{
+       color:black;
+        font-size: 16px;
+    }
+    &__subtext{
+        color:#5988FF;
+        font-size: 16px;
+        & span{
+            font-weight: 700;
+        }
+    }
+}
+
+.submit-button{
+    display: flex;
+    justify-content: center;
+
+}
+
+.go-up-section{
+    margin-top: 50px;
+    & img{
+        cursor: pointer;
+    }
+}
+
+.form-control{
+    border: 1px solid #5988FF;
+}
+
+@media screen and (max-width: 576px) {
+    .section-title{
+        font-size: 50px;      
+    }
+    .section-subtitle{
+        font-size: 21px;  
+           
+    }
+}
