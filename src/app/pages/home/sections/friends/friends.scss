@@ -1,0 +1,62 @@
+.friends-section{
+    max-width: 1440px;
+    width: 100%;
+}
+
+.section-title{
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    &__subtitle{
+        color: white;
+        font-size: 30px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+}
+
+.friend-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+
+}
+
+.friend-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+        &__name{
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    &__position{
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    &__quote{
+        color: white;
+        font-size: 14px;
+        margin-top: 10px;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .friend-cards{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+    .section-title{
+        font-size: 50px;      
+    }
+}
