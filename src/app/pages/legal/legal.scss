@@ -1,0 +1,81 @@
+.legal-section{
+    max-width: 1300px;
+    width: 100%;
+        padding: 0px 40px;
+}
+#legal{
+    padding: 40px 0px 80px;
+    position: relative;
+    overflow: hidden;
+}
+
+.legal__title{
+    font-size: 70px !important;
+    color: #5988FF;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.legal__content {
+   & h2{
+     font-size: 30px ;
+     color: #5988FF;
+     overflow-wrap: anywhere;   // modern çözüm
+  word-break: break-word;    // ek garanti
+  hyphens: auto;   
+
+   }
+   & p{
+     font-size: 18px ;
+    text-align: justify;
+   }
+   & h4{
+     font-size: 30px ;
+     color: #5988FF;
+   }
+}
+
+.back-row{
+  display: none;
+  cursor: pointer; 
+  margin-top: 20px; 
+  margin-bottom: 20px;
+}
+
+.legal-bg{
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.legal-bg .circle-big{
+  position: absolute;
+  width: 120px;          
+  right: 50px;           
+  top: 77px;             
+  user-select: none;
+}
+.legal-bg .circle-small{
+  position: absolute;
+  width: 60px;          
+  right: 0px;           
+  top: 425px;             
+  user-select: none;
+}
+.legal-bg .circle-mid{
+  position: absolute;
+  width: 80px;          
+  left: 0px;           
+  bottom: 425px;             
+  user-select: none;
+}
+
+@media screen and (max-width: 991px) {
+  .back-row{
+    display: block;
+  }
+  .legal-bg .circle-big, .legal-bg .circle-mid, .legal-bg .circle-small{
+    display: none;
+  }
+}
