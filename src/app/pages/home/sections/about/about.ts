@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './about.scss',
 })
 export class About {
-
+  send(){
+    window.location.href = "#contact";
+  }
 }
