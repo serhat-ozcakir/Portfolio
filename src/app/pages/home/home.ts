@@ -15,5 +15,10 @@ import { Work } from './sections/work/work';
   styleUrl: './home.scss',
 })
 export class Home {
+  isHeroHidden:boolean = false;
+   
+onMenuToggle(isOpen: boolean){
+    this.isHeroHidden = isOpen;
+  }
 
 }

@@ -1,0 +1,96 @@
+.top-hero{   
+    background-image: url('../../../../public/img/Hero/hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#about{
+    padding: 80px 0px;
+    background-image: url('../../../../public/img/about/about-contact-2.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 75% auto;
+}
+
+#skills{
+    padding: 80px 0px;
+    background: linear-gradient(135deg, #5988FF 0%, #5988FF 50%, #0043F0 100%);
+}
+
+#work{
+    padding: 80px 0px;
+}
+
+#friends{
+    padding: 80px 0px;
+    background: linear-gradient(135deg, #5988FF 0%, #5988FF 50%, #0043F0 100%);
+}
+
+#contact{
+    padding: 80px 0px;
+    position: relative;
+    overflow: hidden;
+    background-image: url('../../../../public/img/contact/contact-bg.png');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+}
+
+.hero-off{
+  background-image: none !important; /* mavi arka plan gitsin */
+  background-color: #f5f8ff;
+}
+
+.hero-off app-hero{
+  display: none !important;          /* hero içeriği gitsin */
+}
+
+@media screen and (max-width: 991px) {
+    #about, #skills, #work, #friends, #contact{
+        padding: 40px 0px;
+    }
+    #about{
+        background-size: 130% auto;
+    }
+}
+
+@media screen and (max-width: 890px){
+    .top-hero{
+        background-position: 10% 0%;
+    }
+}
+@media screen and (max-width: 770px){
+    .top-hero{
+        background-position: 14% 0%;
+    }
+}
+@media screen and (max-width: 621px){
+    .top-hero{
+        background-position: 19% 0%;
+    }
+}
+@media screen and (max-width: 493px){
+    .top-hero{
+        background-position: 22% 0%;
+    }
+}
+@media screen and (max-width: 403px){
+    .top-hero{
+        background-position: 26% 0%;
+    }
+}
+@media screen and (max-width: 350px){
+    .top-hero{
+        background-position: 28% 0%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #about{
+        background-size: 130% auto;
+    }  
+}
+
+

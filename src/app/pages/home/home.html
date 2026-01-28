@@ -1,11 +1,12 @@
-<div class="top-hero">
-  <app-header></app-header>
+<div class="top-hero" [class.hero-off]="isHeroHidden">
+  <app-header (menuToggle)="onMenuToggle($event)"></app-header>
   <app-hero></app-hero>
 </div>
 
 <section id="about"><app-about></app-about></section>
 <section id="skills"><app-skills></app-skills></section>
 <section id="work"><app-work></app-work></section>
+<section id="friends"><app-friends></app-friends></section>
 <section id="contact"><app-contact></app-contact></section>
 
 <app-footer></app-footer>
