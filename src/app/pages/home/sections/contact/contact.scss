@@ -45,6 +45,59 @@
     border: 1px solid #5988FF;
 }
 
+.contact-bg{
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.contact-bg .circle{
+  position: absolute;
+  user-select: none;
+}
+
+.contact-bg .big{
+  width: 280px;
+  left: 220px;
+  bottom: 80px;
+}
+
+.contact-bg .medium{
+  width: 150px;
+  top: 20px;
+  left: 60%;
+  transform: translateX(-50%);
+}
+
+.contact-bg .small{
+  width: 100px;
+  right: 80px;
+  bottom: 20px;
+}
+
+#contact .container{
+  position: relative;
+  z-index: 2;
+}
+
+@media screen and (max-width: 991px) {
+    .contact-bg .big{
+        display: none;
+    }
+    .contact-title-section{
+        margin-top: 80px;
+    }
+    .contact-bg .medium{
+        left: 70%;
+        width: 100px;
+    }
+    .contact-bg .small{
+        width: 70px;
+        right: 40px;
+}
+}
+
 @media screen and (max-width: 576px) {
     .section-title{
         font-size: 50px;      
