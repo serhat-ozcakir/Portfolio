@@ -1,0 +1,312 @@
+.work-section{
+    max-width: 1440px;
+    width: 100%;
+}
+
+.work{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    &-right{
+        padding-left: 150px;  
+    }
+    & h3{
+        color: #5988FF;
+        font-weight: 700;
+        font-family: 'Baloo 2';
+    }
+    & h4{
+        color: #5988FF;
+        font-weight: 400;
+        font-family: 'Montserrat';
+    }
+    & p{
+        color: black;
+        font-weight: 400;
+        font-family: 'Montserrat';
+    }
+}
+
+.work-image{
+   transition: all 0.2s ease-in;
+}
+.work-image:hover{
+  transform: translateY(-15px); 
+}
+
+.work-image-join{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.2s ease-in;
+  
+}
+
+.work-image-join:hover{
+  transform: translateY(-15px); 
+}
+
+
+.section-header{
+    margin-bottom: 60px;
+}
+
+.section-row{
+    margin-bottom: 80px;
+}
+
+.section-title{
+        color: #5988FF;
+        font-weight: 800;
+        font-size: 70px; 
+        font-family: 'Baloo 2';     
+}
+
+.section-subtitle{
+    color: black;
+    font-weight: 400;
+    font-size: 22px;  
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+}
+
+.section-left{
+    align-items: flex-end;
+    padding-right: 150px;
+    & p{
+        text-align: right;
+    }
+}
+
+/* Wrapper: tüm dekorlar buna göre konumlanır */
+.work-wrap {
+  position: relative;
+  overflow: hidden;
+  padding: 90px 0;
+  background: #ffffff;
+}
+
+
+.work-section {
+  position: relative;
+  z-index: 2;
+}
+
+.work-bg {
+  position: absolute;
+  z-index: 0;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* === Daire Konumları (Desktop) === */
+
+.work-bg--top-left {
+  width: 90px;
+  top: 2px;
+  left: 550px;
+}
+
+.work-bg--top-right {
+  width: 150px;
+  top: 130px;
+  right: 140px;
+}
+
+.work-bg--mid-left {
+  width: 260px;
+  top: 400px;
+  left: -40px;
+}
+
+
+.work-bg--mid-left__left {
+    width: 50px;
+    left: 150px;
+    bottom: 678px;
+  }
+
+.work-bg--mid-right {
+  width: 538px;
+  top: 785px;
+  right: -80px;
+}
+
+.work-bg--bottom-left {
+  width: 150px;
+  bottom: 90px;
+  left: 200px;
+}
+
+.work-bg--bottom-right {
+  width: 320px;
+  bottom: -140px;
+  right: -180px;
+}
+
+.btn-group{
+  display: flex;
+  gap: 10px;
+}
+
+.btn-project{
+  max-width: 120px;
+  width: 100%;
+  padding: 10px 8px;
+  border-radius: 10px !important;
+  font-size: 20px;
+  transition: all 0.3s ease-in;
+}
+
+.btn-project:hover{
+  transform: scale(1.08);
+  background-color: #ffffff;
+  color: #0043F0;;
+}
+
+.btn-group-2{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.btn-project-live{
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+    .work-section{
+       text-align: center;
+    }
+    .section-reverse{
+        flex-direction: column-reverse;
+
+    }
+    .section-title{
+      margin-top: 80px;
+    }
+    .work-right{
+        margin-top: 50px;
+        padding-left: 0px;
+    }
+    .section-left{
+        padding-right: 0px;
+        align-items: center;
+        margin-top: 50px;
+        & p{
+            text-align: center;
+        }
+    }
+    .work-wrap {
+    padding: 70px 0;
+  }
+
+  .work-bg--top-left {
+    width: 70px;
+    left: 480px;
+    top: 30px;
+  }
+
+  .work-bg--top-right {
+    display: none;
+  }
+
+  .work-bg--mid-left {
+    width: 160px;
+    top: 420px;
+    left: -70px;
+  }
+
+  .work-bg--mid-left__left{
+    display: none;
+  }
+
+  .work-bg--mid-right {
+    width: 460px;
+    top: 1280px;
+    right: -51px;
+  }
+
+  .work-bg--bottom-left {
+    width: 150px;
+    bottom: 300px;
+    left: 75px;
+  }
+
+  .work-bg--bottom-right {
+    width: 220px;
+    bottom: -100px;
+    right: -120px;
+  }
+  .btn-group{
+    justify-content: center;
+  }
+  .btn-group-2{
+    justify-content: center;
+  }
+  .btn-project-live{
+    display: block;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+    .work-bg--mid-right {
+    width: 400px;
+    top: 1180px;
+    right: -100px;
+  }
+}
+
+
+/* === Responsive: Mobil === */
+@media (max-width: 576px) {
+    .section-title{
+        font-size: 50px;      
+    }
+  .work-wrap {
+    padding: 60px 0;
+  }
+
+  .work-bg--top-left {
+    width: 60px;
+    left: 240px;
+    top: 20px;
+  }
+
+  .work-bg--top-right {
+    width: 90px;
+    right: 20px;
+    top: 50px;
+  }
+
+  .work-bg--mid-left {
+    width: 130px;
+    top: 520px;
+    left: -60px;
+  }
+
+  .work-bg--mid-right {
+    width: 350px;
+    top: 1050px;
+    right: -100px;
+  }
+
+  .work-bg--bottom-left {
+    width: 60px;
+    bottom: 80px;
+    left: 20px;
+  }
+
+  .work-bg--bottom-right {
+    width: 180px;
+    bottom: -80px;
+    right: -100px;
+  }
+}
+
+@media (max-width: 409px) {
+    .work-bg--mid-right {
+    width: 260px;
+    top: 1000px;
+    right: -90px;
+  }
+}
