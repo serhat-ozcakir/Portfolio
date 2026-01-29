@@ -6,22 +6,34 @@
 .section-title{
     color: #5988FF;
     font-size: 70px;
-    font-weight: 700;
+    font-weight: 800;
     margin-bottom: 50px;
+    font-family: 'Baloo 2';
    
+}
+
+.form-control, .form-check-label{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
 }
 
 .contact-info{
     color:#5988FF;
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 700;
+    font-family: 'Montserrat';
     &__text{
-       color:black;
+       color:#000000;
         font-size: 16px;
+        font-weight: 400;
+        font-family: 'Montserrat';
     }
     &__subtext{
         color:#5988FF;
-        font-size: 16px;
+        font-size: 18px;
+        font-family: 'Poppins';
+        font-weight: 400;
         & span{
             font-weight: 700;
         }

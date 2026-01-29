@@ -12,14 +12,17 @@
 .legal__title{
     font-size: 70px !important;
     color: #5988FF;
-    font-weight: 700;
+    font-weight: 800;
     margin-bottom: 30px;
+    font-family: 'Baloo 2';
 }
 
 .legal__content {
    & h2{
      font-size: 30px ;
      color: #5988FF;
+    font-weight: 700;
+    font-family: 'Montserrat';
      overflow-wrap: anywhere;   // modern çözüm
   word-break: break-word;    // ek garanti
   hyphens: auto;   
@@ -28,6 +31,8 @@
    & p{
      font-size: 18px ;
     text-align: justify;
+        font-weight: 400;
+    font-family: 'Montserrat';
    }
    & h4{
      font-size: 30px ;

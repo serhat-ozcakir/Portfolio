@@ -6,17 +6,32 @@
 .section-title{
     color: white;
     font-size: 70px;
-    font-weight: 700;
+    font-weight: 800;
+    font-family: 'Baloo 2';
 }
 .icon-div{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    & span{
-        color: white;
+    & img {
+        transition: all 0.1s ease-in;
     }
+    & span{
+        color: #FFFFFF;
+        font-weight: 400;
+        font-family: 'Montserrat';
+    }
+
 }
+.icon-div img:hover{
+   transform: translateY(-15px); 
+}
+
+.icon-div:hover span{
+    font-weight: 700;
+}
+
 .skills-grid-container{
     display: flex;
     flex-wrap: wrap;
