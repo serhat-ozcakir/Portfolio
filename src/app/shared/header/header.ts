@@ -1,4 +1,4 @@
-import { Component, Output, EventEmitter, HostListener,  } from '@angular/core';
+import { Component, Output, EventEmitter, HostListener, OnInit } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
@@ -8,17 +8,28 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
   templateUrl: './header.html',
   styleUrl: './header.scss',
 })
-export class Header {
+export class Header implements OnInit {
 
-  constructor(private translate: TranslateService){
+  activeLang: 'de' | 'en' = 'en';
+  constructor(private translate: TranslateService){}
 
+  ngOnInit():void{
+    const lang = localStorage.getItem('lang');
+
+    if(lang === 'de' || lang === 'en'){
+      this.activeLang = lang
+    } else{
+      this.activeLang = 'en'
+    }
+     this.translate.use(this.activeLang); 
   }
-  @Output() menuToggle = new EventEmitter<boolean>(); // 🔹 dışarı sinyal göndereceğiz
+
+  @Output() menuToggle = new EventEmitter<boolean>(); 
   isOpen:boolean = false;
 
   toggleMenu(){
     this.isOpen = !this.isOpen
-    this.menuToggle.emit(this.isOpen)  // 🔹 Home’a true/false gönder
+    this.menuToggle.emit(this.isOpen)  
   }
 
 closeMenu(){
@@ -27,10 +38,13 @@ closeMenu(){
   document.getElementById('navbarNav')?.classList.remove('show');
 }
 
-useLanguage(lang: string){
+useLanguage(lang: 'de' | 'en'){
   this.translate.use(lang);
+  this.activeLang = lang
   localStorage.setItem('lang', lang);
 }
+
+
 
 
   @HostListener('window:resize', [])
