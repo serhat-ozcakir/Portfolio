@@ -11,9 +11,9 @@
 <div class="container work-section">
     <div class="row section-header">
         <div class="work-section-title col-lg-6 col-12">
-            <h2 class="section-title">My Work</h2>
-            <p class="section-subtitle">Explore a selection of my work here - Interact with <br>
-                projects to see my skills in action.</p>
+            <h2 class="section-title">{{ 'WORK.TITLE' | translate }}</h2>
+            <p class="section-subtitle">{{ 'WORK.TITLE__text-1' | translate }} <br>
+                {{ 'WORK.TITLE__text-2' | translate }}</p>
         </div>
         <div class="col-lg-6 col-12"></div>
     </div>
@@ -24,8 +24,7 @@
         <div class="work work-right col-lg-6 col-12">
             <h3>Join</h3>
             <h4>Angular | TypeScript | HTML | CSS | Firebase</h4>
-            <p>Task manager inspired by the Kanban System. Create and <br>
-                organize tasks using drag and drop functions, assign users and <br>categories. </p>
+            <p> {{ 'WORK.PROJECT_1' | translate }}</p>
             <div class="btn-group">
                 <button (click)="gitHub()" class="btn btn-primary btn-project">Github</button>
                 <button (click)="gitHub()" class="btn btn-primary btn-project btn-project-live">Live Test</button>
@@ -36,8 +35,7 @@
         <div class="work work-right section-left col-lg-6 col-12">
             <h3>Pollo Loco</h3>
             <h4>Javascript | HTML | CSS | Firebase</h4>
-            <p>Jump, run and throw game based on object-oriented approach.  Help Pepe to find coins and tabasco
-                salsa to fight against the <br> crazy hen.</p>
+            <p> {{ 'WORK.PROJECT_2' | translate }}</p>
             <div class="btn-group-2" style="width: 100%" >
                 <button (click)="gitHub()" class="btn btn-primary btn-project">Github</button>
                 <button (click)="elPolo()" class="btn btn-primary btn-project btn-project-live">Live Test</button>
@@ -54,7 +52,7 @@
         <div class="work work-right col-lg-6 col-12">
             <h3>Pokédex</h3>
             <h4>Javascript | HTML | CSS | Api</h4>
-               <p>Based on the PokéAPI a simple library that provides and <br>catalogues pokemon information.</p>
+            <p> {{ 'WORK.PROJECT_3' | translate }}</p>
             <div class="btn-group">
                 <button (click)="gitHub()" class="btn btn-primary btn-project">Github</button>
                 <button (click)="pokedex()" class="btn btn-primary btn-project btn-project-live">Live Test</button>

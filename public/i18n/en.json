@@ -1,0 +1,119 @@
+{
+    "NAV": {
+        "ABOUT": "About me",
+        "SKILLS": "Skill set",
+        "WORK": "My Work",
+        "CONTACT": "Contact"
+    },
+    "HERO": {
+        "TITLE_1": "FRONTEND",
+        "TITLE_2": "DEVELOPER",
+        "SUBTITLE": "Hello! I am Serhat Özcakir"
+    },
+        "ABOUT":{
+        "TITLE_1": "Let`s work",
+        "TITLE_2": "together",
+         "SUBTITLE": "I am",
+         "ICON_1-TEXT": "located",
+        "ICON_2-TEXT": "open to work",
+        "ICON_3-TEXT": "relocate",
+        "INFO_1": "Write some information about yourself that is IT related. Why are you passionate about programming? What is your source of inspiration for improving your coding skills? Show a desire to learn new technologies.",
+        "INFO_2":"Describe your approach to problem solving. Do you learn from each challenge to find the most efficient or elegant solution? You can include some key attributes such as: analytical thinking, creativity, persistence and collaboration.",
+        "BUTTON":"Send a message"
+    },
+    "SKILLS":{
+         "TITLE_1": "Skills set"
+    },
+    "WORK":{
+        "TITLE": "My Work",
+        "TITLE__text-1": "Explore a selection of my work here - Interact with",
+        "TITLE__text-2": "projects to see my skills in action",
+        "PROJECT_1": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
+        "PROJECT_2": "Jump, run and throw game based on object-oriented approach. Help Pepe to find coins and tabasco salsa to fight against the crazy hen.",
+        "PROJECT_3":"Based on the PokéAPI a simple library that provides and catalogues pokemon information."
+    },
+    "FRIENDS":{
+        "TITLE": "Need a teamplayer?",
+        "SUBTITLE": "Here what my colleagues said about me",
+        "CARD_POSITION":"Project",
+        "CARD_1-TEXT":"‘’Serhat is a reliable and friendly",
+        "CARD_1-TEXT-2":"person. Work in a structured way",
+        "CARD_1-TEXT-3":"and write a clear code. I highly",
+        "CARD_1-TEXT-4":"recommend her as a colleague.‘’",
+        "CARD_2-TEXT":"‘’Serhat is a trustworthy team player",
+        "CARD_2-TEXT-2":"and can cope with the stress of",
+        "CARD_2-TEXT-3":"deadlines. Structured work, clear code,",
+        "CARD_2-TEXT-4":"  and strong problem solving skills.‘’",
+        "CARD_3-TEXT":"‘’Serhat had to develop, format and",
+        "CARD_3-TEXT-2":"deliver content in collaboration with",
+        "CARD_3-TEXT-3":"the team members. He is a reliable",
+        "CARD_3-TEXT-4":"and friendly person. ‘’"
+    },
+    "CONTACT":{
+        "TITLE": "Contact",
+        "SUBTITLE": "Got a problem to solve?",
+        "TEXT":"Encourage people to contact you and describe what role",
+        "TEXT-2":"you are interested in. Show that you will add value to their",
+        "TEXT-3":"projects through your work.",
+        "INFO":"Need a Frontend developer?",
+        "INFO-2":"Contact me!",
+        "MESSAGE-1":"Your Name",
+        "MESSAGE-2":"Your Email",
+        "MESSAGE-3":"Your Message",
+        "ORDER-1":"I've read the",
+        "ORDER-2":"privacy policy",
+        "ORDER-3":"and agree to the procecessong of my data as outline.",
+        "BUTTON":"Say Hello :)"
+    },
+    "FOOTER":{
+         "TEXT": "Legal Notice"
+    },
+    "LEGAL":{
+        "TITLE": "Legal Notice",
+        "TEXT_1":"Information pursuant to Section 5 of the German Digital Services Act (DDG)",
+        "TEXT_2":"Represented by:",
+        "SUBTITLE_1":"Contact:",
+        "SUBTITLE_2":"Consumer Dispute Resolution / Universal Arbitration Board",
+        "TEXT_3":"We do not participate in dispute resolution proceedings before a consumer arbitration board and are not obligated to do so.",
+        "SUBTITLE_3":"Disclaimer:",
+        "SUBTITLE_4":"Liability for Content",
+        "TEXT_4":"The contents of our website have been created with the utmost care. However, we cannot guarantee the accuracy, completeness, or timeliness of the content. As a service provider, we are responsible for our own content on these pages in accordance with Section 7 (1) DDG and general legislation. Pursuant to Sections 8 to 10 DDG, however, we are not obligated to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity. Obligations to remove or block the use of information under general laws remain unaffected. Liability in this respect is only possible from the time we become aware of a specific legal violation. Upon notification of such violations, we will remove the content immediately.",
+        "SUBTITLE_5":"Liability for Links",
+        "TEXT_5":"Our website contains links to external third-party websites over whose content we have no control. Therefore, we cannot accept any liability for this external content. The respective provider or operator of the linked pages is always responsible for their content. The linked pages were checked for possible legal violations at the time of linking, and no illegal content was identifiable at that time. Permanent monitoring of the content of linked pages is not reasonable without concrete evidence of a violation. If we become aware of any legal infringements, we will remove such links immediately.",
+        "SUBTITLE_6":"Copyright",
+        "TEXT_6":"The content and works created by the site operator on these pages are subject to German copyright law. Any reproduction, editing, distribution, or any form of utilization beyond the scope of copyright law requires the prior written consent of the respective author or creator. Downloads and copies of this site are permitted for private, non-commercial use only. Where content on this site was not created by the operator, the copyrights of third parties are respected, and such content is identified accordingly. Should you nevertheless become aware of a copyright infringement, please inform us. Upon notification of any violations, we will remove such content immediately.",
+        "TEXT_6-2":"Legal notice generated by"
+        },
+    "PRIVACY":{
+        "TITLE": "Privacy Policy",
+        "SUBTITLE_1":"1. General Information",
+        "TEXT_1":"The protection of your personal data is very important to me. I process your personal data exclusively in accordance with the applicable data protection regulations, in particular the General Data Protection Regulation (GDPR).",
+        "SUBTITLE_2":"2. Controller",
+        "TEXT_2":"Responsible for data processing on this website:",
+        "TEXT_2-2":"Germany",
+        "SUBTITLE_3":"3. Collection and Processing of Personal Data",
+        "TEXT_3":"This website does not collect personal data unless you voluntarily provide it to me, for example by contacting me via the contact form. The following data may be processed:",
+        "TEXT_3-1":"Name",
+        "TEXT_3-2":"Email Address",
+        "TEXT_3-3":"Message content",
+        "TEXT_3-4":"These data are used exclusively to respond to your inquiry and are not passed on to third parties.",
+        "SUBTITLE_4":"4. Contact Form",
+        "TEXT_4":"When you contact me via the contact form, your information will be stored for the purpose of processing your request and in case of follow-up questions. This data will not be shared without your consent.",
+        "SUBTITLE_5":"5. Legal Basis for Processing",
+        "TEXT_5":"The processing of your data is based on Art. 6(1)(a) GDPR (your consent) and Art. 6(1)(b) GDPR (performance of pre-contractual measures).",
+        "SUBTITLE_6":"6. Storage Period",
+        "TEXT_6":"Your personal data will only be stored for as long as necessary to process your request and will then be deleted, unless legal retention obligations apply.",
+        "SUBTITLE_7":"7. Your Rights",
+        "TEXT_7":"You have the right to:",
+        "TEXT_7-1":"Access your stored personal data",
+        "TEXT_7-2":"Request correction or deletion",
+        "TEXT_7-3":"Restrict processing",
+        "TEXT_7-4":"Object to processing",
+        "TEXT_7-5":"Data portability",
+        "TEXT_7-6":"Lodge a complaint with a supervisory authority",
+        "SUBTITLE_8":"8. Data Security",
+        "TEXT_8":"I use appropriate technical and organizational security measures to protect your personal data against accidental or intentional manipulation, loss, destruction or unauthorized access.",
+        "SUBTITLE_9":"9. External Links",
+        "TEXT_9":"This website may contain links to external websites. I am not responsible for the content or privacy practices of these external sites."
+    }
+}

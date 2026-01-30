@@ -1,0 +1,120 @@
+{
+    "NAV": {
+        "ABOUT": "Über mich",
+        "SKILLS": "Fähigkeiten",
+        "WORK": "Meine Arbeit",
+        "CONTACT": "Kontakt"
+    },
+    "HERO": {
+        "TITLE_1": "FRONTEND",
+        "TITLE_2": "ENTWICKLER",
+        "SUBTITLE": "Hallo! Ich bin Serhat Özcakir"
+    },
+    "ABOUT": {
+        "TITLE_1": "Lassen Sie uns",
+        "TITLE_2": "zusammenarbeiten",
+        "SUBTITLE": "Ich bin",
+        "ICON_1-TEXT": "befindet sich in",
+        "ICON_2-TEXT": "offen für Arbeit",
+        "ICON_3-TEXT": "umzug",
+        "INFO_1": "Schreiben Sie einige Informationen über sich selbst, die mit IT zu tun haben. Warum begeistern Sie sich für das Programmieren? Was inspiriert Sie dazu, Ihre Programmierkenntnisse zu verbessern? Zeigen Sie, dass Sie daran interessiert sind, neue Technologien zu erlernen.",
+        "INFO_2": "Beschreiben Sie Ihren Ansatz zur Problemlösung. Lernen Sie aus jeder Herausforderung, um die effizienteste oder eleganteste Lösung zu finden? Sie können einige wichtige Eigenschaften angeben, wie z. B.: analytisches Denken, Kreativität, Ausdauer und Zusammenarbeit.",
+        "BUTTON":"Eine Nachricht senden"
+    },
+    "SKILLS":{
+        "TITLE_1": "Fähigkeiten"
+    },
+    "WORK":{
+        "TITLE": "Meine Arbeit",
+        "TITLE__text-1": "Entdecken Sie hier eine Auswahl meiner Arbeiten – interagieren Sie mit den Projekten,  um meine",
+        "TITLE__text-2": "Fähigkeiten in Aktion zu seehen.",
+        "PROJECT_1": "Vom Kanban-System inspirierter Aufgabenmanager. Erstellen und organisieren Sie Aufgaben mithilfe von Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu.",
+        "PROJECT_2":"Sprung, Lauf und Wurfspiel, das auf einem objektorientierten Ansatz basiert. Hilf Pepe dabei, Münzen und Tabasco-Sauce zu finden, um gegen die verrückte Henne zu kämpfen.",
+        "PROJECT_3":"Basierend auf der PokéAPI, einer einfachen Bibliothek, die Pokémon-Informationen bereitstellt und katalogisiert."
+    },
+    "FRIENDS":{
+        "TITLE": "Brauchen Sie einen Teamplayer?",
+        "SUBTITLE": "Hier ist, was meine Kollegen über mich gesagt haben",
+        "CARD_POSITION":"Projekt",
+            "CARD_1-TEXT":"‘’Serhat ist eine zuverlässige und freundliche",
+        "CARD_1-TEXT-2":"Person. Er arbeitet strukturiert",
+        "CARD_1-TEXT-3":"und schreibt klaren Code. Ich kann ihn",
+        "CARD_1-TEXT-4":"als Kollegen wärmstens empfehlen.‘’",
+        "CARD_2-TEXT":"‘’Serhat ist ein zuverlässiger Teamplayer",
+        "CARD_2-TEXT-2":"und kann mit dem Stress von Termine gut ",
+        "CARD_2-TEXT-3":"umgehen. Strukturierte Arbeitsweise, klarer ",
+        "CARD_2-TEXT-4":"Code und Problemlösungsfähigkeiten.‘’",
+        "CARD_3-TEXT":"‘’Serhat musste in Zusammenarbeit mit den",
+        "CARD_3-TEXT-2":"Teammitgliedern Inhalte entwickeln,",
+        "CARD_3-TEXT-3":"formatieren und bereitstellen. Er ist eine",
+        "CARD_3-TEXT-4":"zuverlässige und freundliche Person.‘’"
+    },
+    "CONTACT":{
+        "TITLE": "Kontakt",
+        "SUBTITLE": "Haben Sie ein Problem zu lösen?",
+        "TEXT":"Ermutigen Sie die Leute, sich mit Ihnen in Verbindung zu setzen, und beschreiben Sie, für welche Position Sie sich interessieren. Zeigen Sie,  ",
+        "TEXT-2":"dass Sie durch Ihre Arbeit einen Mehrwert für ihre Projekte schaffen ",
+        "TEXT-3":" werden.",
+        "INFO":"Benötigen Sie einen Frontend-Entwickler?",
+        "INFO-2":"Kontaktieren Sie mich!",
+        "MESSAGE-1":"Deine Name",
+        "MESSAGE-2":"Deine Email",
+        "MESSAGE-3":"Deine Nachricht",
+        "ORDER-1":"Ich habe die",
+        "ORDER-2":" Datenschutzerklärung ",
+        "ORDER-3":"gelesen und stimme der Verarbeitung meiner Daten wie beschrieben zu.",
+        "BUTTON":"Hallo sagen :)"        
+    },
+    "FOOTER":{
+         "TEXT": "Impressum"
+    },
+    "LEGAL":{
+        "TITLE": "Impressum",
+        "TEXT_1":"Angaben gemäß § 5 DDG",
+        "TEXT_2":"Vertreten durch:",
+        "SUBTITLE_1":"Kontakt:",
+        "SUBTITLE_2":"Verbraucherstreitbeilegung / Universalschlichtungsstelle",
+        "TEXT_3":"Wir nehmen nicht an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teil und sind dazu auch nicht verpflichtet.",
+        "SUBTITLE_3":"Haftungsausschluss:",
+        "SUBTITLE_4":"Haftung für Inhalte",
+        "TEXT_4":"Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, b Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 DDG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 DDG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.",
+        "SUBTITLE_5":"Haftung für Links",
+        "TEXT_5":"Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.",
+        "SUBTITLE_6":"Urheberrecht",
+        "TEXT_6":"Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.",
+        "TEXT_6-2":"Impressum von"
+    },
+    "PRIVACY":{
+        "TITLE": "Datenschutzerklärung",
+        "SUBTITLE_1":"1. Allgemeine Hinweise",
+        "TEXT_1":"Der Schutz Ihrer personenbezogenen Daten ist mir ein wichtiges Anliegen. Ich verarbeite Ihre personenbezogenen Daten ausschließlich im Einklang mit den geltenden Datenschutzvorschriften, insbesondere der Datenschutz-Grundverordnung (DSGVO).",
+        "SUBTITLE_2":"2. Verantwortlicher",
+        "TEXT_2":"Verantwortlich für die Datenverarbeitung auf dieser Website ist:",
+        "TEXT_2-2":"Deutschland",
+        "SUBTITLE_3":"3. Erhebung und Verarbeitung personenbezogener Daten",
+        "TEXT_3":"Diese Website erhebt personenbezogene Daten nur dann, wenn Sie mir diese freiwillig mitteilen, beispielsweise durch eine Kontaktaufnahme über das Kontaktformular. Folgende Daten können verarbeitet werden:",
+        "TEXT_3-1":"Name",
+        "TEXT_3-2":"E-Mail-Adresse",
+        "TEXT_3-3":"Inhalt der Nachricht",
+        "TEXT_3-4":"Diese Daten werden ausschließlich zur Bearbeitung Ihrer Anfrage verwendet und nicht an Dritte weitergegeben.",
+        "SUBTITLE_4":"4. Kontaktformular",
+        "TEXT_4":"Wenn Sie mich über das Kontaktformular kontaktieren, werden Ihre Angaben zum Zwecke der Bearbeitung Ihrer Anfrage sowie für mögliche Anschlussfragen gespeichert. Eine Weitergabe dieser Daten erfolgt nicht ohne Ihre Einwilligung.",
+        "SUBTITLE_5":"5. Rechtsgrundlage der Verarbeitung",
+        "TEXT_5":"Die Verarbeitung Ihrer Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO (Einwilligung) sowie Art. 6 Abs. 1 lit. b DSGVO (Durchführung vorvertraglicher Maßnahmen).",
+        "SUBTITLE_6":"6. Speicherdauer",
+        "TEXT_6":"Ihre personenbezogenen Daten werden nur so lange gespeichert, wie dies zur Bearbeitung Ihrer Anfrage erforderlich ist. Anschließend werden sie gelöscht, sofern keine gesetzlichen Aufbewahrungspflichten entgegenstehen.",
+        "SUBTITLE_7":"7. Ihre Rechte",
+        "TEXT_7":"Sie haben das Recht:",
+        "TEXT_7-1":"Auskunft über Ihre gespeicherten personenbezogenen Daten zu erhalten",
+        "TEXT_7-2":"Berichtigung oder Löschung zu verlangen",
+        "TEXT_7-3":"die Verarbeitung einzuschränken",
+        "TEXT_7-4":"der Verarbeitung zu widersprechen",
+        "TEXT_7-5":"Ihre Daten in einem übertragbaren Format zu erhalten (Datenübertragbarkeit)",
+        "TEXT_7-6":"sich bei einer Datenschutzaufsichtsbehörde zu beschweren",
+        "SUBTITLE_8":"8. Datensicherheit",
+        "TEXT_8":"Ich setze geeignete technische und organisatorische Sicherheitsmaßnahmen ein, um Ihre personenbezogenen Daten gegen zufällige oder vorsätzliche Manipulation, Verlust, Zerstörung oder unbefugten Zugriff zu schützen.",
+        "SUBTITLE_9":"9. Externe Links",
+        "TEXT_9":"Diese Website kann Links zu externen Websites enthalten. Für die Inhalte sowie die Datenschutzpraktiken dieser externen Seiten übernehme ich keine Verantwortung."
+
+    }
+}

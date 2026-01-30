@@ -3,11 +3,12 @@
         <div class="about col-lg-6  col-12 text-center">
             <div class="about__left">
                 <div class="about__left--title">
-                    <p class="about__left--title--text">Let`s work <br>together</p>
+                    <p class="about__left--title--text">{{ 'ABOUT.TITLE_1' | translate }} <br>
+                        {{ 'ABOUT.TITLE_2' | translate }}</p>
                 </div>
                 <div class="about__left--text-section">
                     <div class="about__left--text-section__title">
-                        <p>I am</p>
+                        <p>{{ 'ABOUT.SUBTITLE' | translate }}</p>
                     </div>
                     <div class="about__left--text-section__icon">
                         <div class="about__left--text-section__icon--div">
@@ -15,21 +16,21 @@
                                 <img class="icon-default" src="img/about/Location-icon-1.png" alt="">
                                 <img class="icon-hover" src="img/about/location-icon-2.png" alt="">
                             </span>
-                            <p>located in <br>Radevormwald</p>
+                            <p>{{ 'ABOUT.ICON_1-TEXT' | translate }} <br>Radevormwald</p>
                         </div>
                         <div class="about__left--text-section__icon--div">
                             <span class="icon-swap-2">
                                 <img class="icon-default" src="img/about/Icon Remote-1.png" alt="">
                                 <img class="icon-hover" src="img/about/Icon Remote-2.png" alt="">
                             </span>
-                            <p>Open to work <br>remote</p>
+                            <p>{{ 'ABOUT.ICON_2-TEXT' | translate }} <br>remote</p>
                         </div>
                         <div class="about__left--text-section__icon--div">
                             <span class="icon-swap">
                                 <img class="icon-default" src="img/about/package-1.png" alt="">
                                 <img class="icon-hover" src="img/about/package-2.png" alt="">
                             </span>                    
-                            <p>open to<br>relocate</p>
+                            <p>{{ 'ABOUT.ICON_2-TEXT' | translate }} <br>{{ 'ABOUT.ICON_3-TEXT' | translate }}</p>
                         </div>
                     </div>
                 </div>
@@ -40,15 +41,12 @@
         <div class="about col-lg-6 col-12 text-center">
             <div class="about__right">
                 <div class="about__right--text">
-                    <p>Write some information about yourself that is IT related.
-                        Why are you passionate about programming? What is your source of inspiration for improving your
-                        coding skills? Show a desire to learn new technologies. <br>
-                        Describe your approach to problem solving. Do you learn from each challenge to find the most
-                        efficient or elegant solution? You can include some key attributes such as: analytical thinking,
-                        creativity, persistence and collaboration.</p>
+                <p>{{ 'ABOUT.INFO_1' | translate }} <br>
+                    {{ 'ABOUT.INFO_2' | translate }}
+                </p>
                 </div>
                 <div class="about__right--button">
-                    <button (click)="send()" class="btn btn-large btn-outline-primary">Send a message</button>
+                    <button (click)="send()" class="btn btn-large btn-outline-primary">{{ 'ABOUT.BUTTON' | translate }}</button>
                 </div>
             </div>
         </div>

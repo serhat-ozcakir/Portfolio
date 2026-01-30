@@ -13,14 +13,15 @@
     <!-- SAĞ: Metin -->
     <div class="right-section col-lg-6 text-center text-lg-start mt-4 mt-lg-0">
       <div class="right-section__up">
-        <p class="right-section__subtitle">Hello! I am Serhat Özcakir</p>
+        <p class="right-section__subtitle">{{'HERO.SUBTITLE' | translate}}</p>
         <h1 class="right-section__title">
           <span class="letters" aria-label="FRONTEND DEVELOPER">
-            <!-- FRONTEND -->
-            <span>F</span><span>R</span><span>O</span><span>N</span><span>T</span><span>E</span><span>N</span><span>D</span>
-            <br>
-            <!-- DEVELOPER -->
-            <span>D</span><span>E</span><span>V</span><span>E</span><span>L</span><span>O</span><span>P</span><span>E</span><span>R</span>
+            @for (item of line1; track $index) {
+              <span>{{item}}</span>
+            } <br>
+            @for (item2 of line2; track $index) {
+              <span>{{item2}}</span>
+            } 
           </span>
         </h1>
       </div>
