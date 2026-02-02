@@ -40,6 +40,40 @@
     }
 }
 
+.form-control{
+  border-width: 2px; 
+}
+.form-control.is-invalid{
+  border-width: 2px; 
+  background-image: none; 
+  padding-right: .75rem;  
+}
+
+
+.error-slot{
+  min-height: 30px; 
+  margin-top: 6px;
+}
+
+.error{
+  margin: 0;
+  font-size: 14px;
+  color: #d40000;
+  line-height: 20px;
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-text-fill-color: #000; // kendi rengin neyse
+  transition: background-color 9999s ease-in-out 0s; // sarıyı bastırır
+  box-shadow: 0 0 0px 1000px #fff inset; // input bg rengine göre ayarla
+}
+.feedback-slot{ min-height: 18px; margin-top: 10px; }
+.ok{ margin:0; color:#0a7a28; font-size:14px; }
+.bad{ margin:0; color:#d40000; font-size:14px; }
+
+
 .submit-button{
     display: flex;
     justify-content: center;
