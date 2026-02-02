@@ -63,7 +63,16 @@
         "ORDER-1":"I've read the",
         "ORDER-2":"privacy policy",
         "ORDER-3":"and agree to the procecessong of my data as outline.",
-        "BUTTON":"Say Hello :)"
+        "BUTTON":"Say Hello :)",
+        "NAME": "Please enter your name.",
+        "EMAIL": "Please enter your email address",
+        "MESSAGE": "Please enter your message",
+        "CHECK":"Please confirm your consent by checking the box",
+        "WARN":"Your message has been successfully sent",
+        "WARN-2":"Your message could not be sent",
+        "TOAST":"Success",
+        "TOAST-2":"Error"
+
     },
     "FOOTER":{
          "TEXT": "Legal Notice"

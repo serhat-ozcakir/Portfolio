@@ -63,7 +63,15 @@
         "ORDER-1":"Ich habe die",
         "ORDER-2":" Datenschutzerklärung ",
         "ORDER-3":"gelesen und stimme der Verarbeitung meiner Daten wie beschrieben zu.",
-        "BUTTON":"Hallo sagen :)"        
+        "BUTTON":"Hallo sagen :)" ,
+        "NAME": "Bitte geben Sie Ihren Namen ein" ,
+        "EMAIL": "Bitte geben Sie Ihre E-Mail-Adresse ein",
+        "MESSAGE": "Bitte geben Sie Ihre Nachricht ein",
+        "CHECK":"Bitte bestätigen Sie Ihre Zustimmung, indem Sie das Kästchen ankreuzen",
+        "WARN":"Ihre Nachricht wurde erfolgreich versendet",
+        "WARN-2":"Ihre Nachricht konnte nicht gesendet werden",
+        "TOAST":"Gesendet",
+        "TOAST-2":"Fehler"                                      
     },
     "FOOTER":{
          "TEXT": "Impressum"
