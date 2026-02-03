@@ -4,6 +4,10 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { RouterLink } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
+import emailjs from '@emailjs/browser';
+import { emailJsSecret } from '../../../../../environments/emailjs.secret';
+
+
 
 
 @Component({
@@ -13,6 +17,11 @@ import { TranslateModule } from '@ngx-translate/core';
   styleUrl: './contact.scss',
 })
 export class Contact {
+  private readonly SERVICE_ID = emailJsSecret.serviceId;
+  private readonly TEMPLATE_ID = emailJsSecret.templateId;
+  private readonly PUBLIC_KEY = emailJsSecret.publicKey;
+
+
   @ViewChild('successToast') successToast?: ElementRef;
   @ViewChild('errorToast') errorToast?: ElementRef;
 
@@ -50,21 +59,36 @@ export class Contact {
     this.isSending = true;
     this.sentMessage = null;
 
-    try {
+    const params = {
+      name:this.name?.value,
+      email:this.email?.value,
+      message:this.message?.value
+    }
+
+    emailjs
+    .send(
+      this.SERVICE_ID,
+      this.TEMPLATE_ID,
+      params,
+       { publicKey: this.PUBLIC_KEY }
+    )
+    .then(() => {
       this.sentMessage = true;
-      this.showToast('success')
+      this.showToast('success');
       this.userForm.reset({
         name: '',
         email: '',
         message: '',
-        completed: false
+        completed: false,
       });
-    } catch (error) {
-      this.sentMessage = false;
-      this.showToast('error');
-    } finally {
+    })
+    .catch((err) => {
+    this.sentMessage = false;
+    this.showToast('error');
+    })
+    .finally(() => {
       this.isSending = false;
-    }
+    });
   }
   
   showToast(type: 'success' | 'error'): void {

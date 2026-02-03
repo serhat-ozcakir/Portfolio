@@ -28,6 +28,9 @@ yarn-error.log
 !.vscode/extensions.json
 .history/*
 
+# Secrets (EmailJS)
+/src/environments/emailjs.secret.ts   
+
 # Miscellaneous
 /.angular/cache
 .sass-cache/

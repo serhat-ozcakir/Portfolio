@@ -7,11 +7,14 @@
 }
 
 .about__left {
-
+    &--title{
+        display: flex;
+        justify-content: center;
+    }
     &--title--text {
         font-size: 70px;
         color: #5988FF;
-        text-align: justify;
+        text-align: center;
         line-height: 1;
         font-family: 'Baloo 2';
         font-weight: 800;
