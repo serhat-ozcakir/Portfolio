@@ -29,6 +29,7 @@
 
 .work-image{
    transition: all 0.2s ease-in;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .work-image:hover{
   transform: translateY(-15px); 
@@ -183,7 +184,7 @@
 
 @media screen and (max-width:1130px) {
     .work-bg--mid-right{
-        top: 673px;
+        top: 665px;
         width: 475px;
     }
     .work-bg--mid-left__left{
@@ -285,11 +286,13 @@
   }
 }
 
-
-/* === Responsive: Mobil === */
 @media (max-width: 576px) {
     .section-title{
-        font-size: 50px;      
+        font-size: 35px; 
+        margin-top: 40px;     
+    }
+    .section-subtitle{
+      font-size: 17px
     }
   .work-wrap {
     padding: 60px 0;
@@ -309,20 +312,20 @@
 
   .work-bg--mid-left {
     width: 195px;
-    top: 328px;
+    top: 280px;
     left: -60px;
   }
 
   .work-bg--mid-right {
     width: 325px;
-    top: 995px;
+    top: 950px;
     right: -100px;
   }
 
   .work-bg--bottom-left {
     width: 60px;
-    bottom: 80px;
-    left: 20px;
+    bottom: 25px;
+    left: 80px;
   }
 
   .work-bg--bottom-right {
@@ -330,31 +333,40 @@
     bottom: -80px;
     right: -100px;
   }
+  .work-right > h4{
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 476px) {
     .work-bg--mid-right {
     width: 260px;
-    top: 1000px;
+    top: 910px;
     right: -90px;
   }
     .work-bg--mid-left {
     width: 165px;
-    top: 320px;
+    top: 260px;
     left: -60px;
   }
 }
+
 @media (max-width: 409px) {
     .work-bg--mid-right {
-    width: 266px;
-    top: 957px;
+    width: 235px;
+    top: 905px;
     right: -80px;
   }
 }
 @media (max-width: 350px) {
     .work-bg--mid-right {
-    width: 228px;
-    top: 967px;
+    width: 210px;
+    top: 870px;
     right: -80px;
+  }
+  .work-bg--mid-left{
+    width: 160px;
+    top: 230px;
+    left: -60px;    
   }
 }

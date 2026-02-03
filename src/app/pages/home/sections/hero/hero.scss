@@ -24,12 +24,13 @@
 
   &__up{
     margin-top: 100px;
+    padding-left: 10px;
   }
 
   &__down {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     width: 100%;
     position: relative;
 
@@ -58,7 +59,6 @@
       display: flex;
       flex-direction: column;
       gap: 30px;
-      margin-bottom: 60px;
 
       img {
         width: 26px;
@@ -98,13 +98,16 @@
 
 
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
 
   .right-section__subtitle{
     color: white;
   }
   .right-section__title{
     color: white;
+  }
+  .right-section__up{
+    padding-left: 0px;
   }
   .hero-scroll{
     display: flex;
@@ -135,10 +138,10 @@
 
 @media (max-width: 576px) {
   .right-section__title {
-    font-size: 50px;
+    font-size: 47px;
   }
 
   .right-section__subtitle {
-    font-size: 28px;
+    font-size: 23px;
   }
 }

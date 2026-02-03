@@ -40,7 +40,6 @@
         &--div {
             display: flex;
             align-items: center;
-            cursor: pointer;
             transition: transform .1s ease;
             & p {
                 margin-bottom: 0px;
@@ -142,7 +141,7 @@
     .about__right {
         display: flex;
         align-items: center;
-
+        padding-left: 0px;
         &--button {
             margin-top: 20px;
             margin-bottom: 20px;
@@ -152,5 +151,16 @@
                 font-weight: 400 !important;
             }
         }
+    }
+}
+
+@media (max-width: 576px) {
+    .about__left--title--text{
+        font-size: 35px;
+    }
+}
+@media (max-width: 376px) {
+    .about__left--title--text{
+        font-size: 30px;
     }
 }

@@ -25,7 +25,8 @@
     font-family: 'Montserrat';
      overflow-wrap: anywhere;   // modern çözüm
   word-break: break-word;    // ek garanti
-  hyphens: auto;   
+  hyphens: auto;  
+  margin-top: 50px; 
 
    }
    & p{
@@ -33,6 +34,14 @@
     text-align: justify;
         font-weight: 400;
     font-family: 'Montserrat';
+    margin-top: 20px;
+   }
+   & span{
+     font-size: 18px ;
+    text-align: justify;
+        font-weight: 400;
+    font-family: 'Montserrat';
+    margin-top: 20px;
    }
    & h4{
      font-size: 30px ;
@@ -83,4 +92,31 @@
   .legal-bg .circle-big, .legal-bg .circle-mid, .legal-bg .circle-small{
     display: none;
   }
+}
+
+@media screen and (max-width: 767px) {
+    .legal__title{
+      font-size: 50px !important;
+    }
+        .legal__content > h2{
+      margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+      .legal__title{
+      font-size: 40px !important;
+    }
+    .legal__content > p{
+      font-size: 15px !important;
+    }
+    .legal__content > span{
+      font-size: 15px !important;
+    }
+}
+
+@media screen and (max-width: 350px) {
+   .legal__content > h2{
+    font-size: 24px !important;
+   }
 }

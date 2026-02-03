@@ -127,6 +127,15 @@ select:-webkit-autofill {
   z-index: 2;
 }
 
+@media screen and (min-width: 1700px) {
+   .contact-bg .big{
+  width: 280px;
+  left: 220px;
+  bottom: 155px;
+}
+ 
+}
+
 @media screen and (max-width: 991px) {
     .contact-bg .big{
         display: none;
@@ -146,8 +155,17 @@ select:-webkit-autofill {
 
 @media screen and (max-width: 576px) {
     .section-title{
-        font-size: 50px;      
+        font-size: 35px;      
     }
+    .contact-info{
+        font-size: 25px; 
+    &__text{
+        font-size: 16px;
+    }
+    &__subtext{
+        font-size: 16px;
+    }
+    } 
     .section-subtitle{
         font-size: 21px;  
            

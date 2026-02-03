@@ -24,7 +24,7 @@
      color: #5988FF;
      font-weight: 700;
      font-family: 'Open Sans';
-
+    margin-top: 50px;
 
    }
    & p{
@@ -32,6 +32,14 @@
     text-align: justify;
      font-weight: 400;
      font-family: 'Open Sans';    
+    margin-top: 20px;
+   }
+   & span{
+     font-size: 18px ;
+    text-align: justify;
+    font-weight: 400;
+    font-family: 'Open Sans';    
+    margin-top: 10px;
    }
    & h4{
      font-size: 30px ;
@@ -67,5 +75,30 @@
   }
   .privacy-bg .circle{
     display: none;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .privacy__title{
+    font-size: 50px !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .privacy__title{
+    font-size: 40px !important;
+  }
+  .privacy__content p{
+    text-align: justify;
+  }
+  .privacy__content h2{
+    font-size: 30px !important;
+  }
+}
+
+@media screen and (max-width: 350px) {
+    .privacy__content h2{
+    font-size: 24px !important;
   }
 }
