@@ -20,26 +20,26 @@
         </div>
         <div class="col-lg-6">
             <form [formGroup]="userForm" autocomplete="off" (ngSubmit)="formSubmit()">
-                <div class="mb-3">
+                <div class="">
                     <label for="name" class="form-label"></label>
                     <input [class.is-invalid]="name?.invalid && name?.touched" type="text" class="form-control"
                         formControlName="name" name="name" id="name"
                         placeholder="{{ 'CONTACT.MESSAGE-1' | translate }}">
                     <div class="error-slot">
                         @if (name?.touched && name?.invalid) {
-                        <span class="error">Bitte geben Sie ihren Namen ein</span>
+                        <span class="error">{{ 'CONTACT.NAME' | translate }}</span>
                         }
                     </div>
 
                 </div>
-                <div class="mb-3">
+                <div class="">
                     <label for="email" class="form-label"></label>
                     <input [class.is-invalid]="email?.invalid && email?.touched" type="email" class="form-control"
                         formControlName="email" name="email" id="email"
                         placeholder="{{ 'CONTACT.MESSAGE-2' | translate }}">
                     <div class="error-slot">
                         @if(email?.touched && email?.invalid){
-                        <span class="error">Bitte geben Sie ihre Email Adresse ein</span>
+                        <span class="error">{{ 'CONTACT.EMAIL' | translate }}</span>
                         }
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                         placeholder="{{ 'CONTACT.MESSAGE-3' | translate }}"></textarea>
                     <div class="error-slot">
                         @if(message?.touched && message?.invalid){
-                        <span class="error">Bitte geben Sie ihre Nachricht ein</span>
+                        <span class="error">{{ 'CONTACT.MESSAGE' | translate }}</span>
                         }
                     </div>
                 </div>
@@ -63,45 +63,44 @@
                     </label>
                     <div class="error-slot">
                         @if(completed?.touched && completed?.invalid){
-                        <span class="error">Bitte klicken Sie checkbox button</span>
+                        <span class="error">{{ 'CONTACT.CHECK' | translate }}</span>
                         }
                     </div>
                 </div>
                 <div class="mt-3 submit-button">
                     <button id="liveToastBtn" [disabled]="userForm.invalid || isSending" type="submit"
-                        class="btn btn-primary mt-3">
+                        class="btn btn-outline-primary mt-3">
                         {{ 'CONTACT.BUTTON' | translate }}
                     </button>
                 </div>
                 <div class="mt-2 feedback-slot">
-                    @if (sentMessage === true) {
+        
                     <div class="toast-container position-fixed bottom-0 end-0 p-3">
                         <div #successToast class="toast" role="alert" aria-live="assertive" aria-atomic="true">
                             <div class="toast-header">
-                                <strong class="me-auto">Information</strong>
+                                <strong class="me-auto">{{ 'CONTACT.TOAST' | translate }} ✅</strong>
                                 <button type="button" class="btn-close" data-bs-dismiss="toast"
                                     aria-label="Close"></button>
                             </div>
                             <div class="toast-body">
-                                Deine Nachricht wurde erfolgreich geschickt
+                               {{ 'CONTACT.WARN' | translate }}
                             </div>
                         </div>
                     </div>
-                    }
-                    @if (sentMessage === false) {
+              
                     <div class="toast-container position-fixed bottom-0 end-0 p-3">
                         <div #errorToast class="toast" role="alert" aria-live="assertive" aria-atomic="true">
                             <div class="toast-header">
-                                <strong class="me-auto">Information</strong>
+                                <strong class="me-auto">{{ 'CONTACT.TOAST-2' | translate }} ❌</strong>
                                 <button type="button" class="btn-close" data-bs-dismiss="toast"
                                     aria-label="Close"></button>
                             </div>
                             <div class="toast-body">
-                               Ooops ! Fehler
+                                {{ 'CONTACT.WARN-2' | translate }}
                             </div>
                         </div>
                     </div>
-                    }
+     
                 </div>
 
             </form>
