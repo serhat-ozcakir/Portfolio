@@ -11,8 +11,8 @@
         "SUBTITLE": "Hallo! Ich bin Serhat Özcakir"
     },
     "ABOUT": {
-        "TITLE_1": "Lassen Sie uns",
-        "TITLE_2": "zusammenarbeiten",
+        "TITLE_1": "Arbeiten wir",
+        "TITLE_2": "zusammen",
         "SUBTITLE": "Ich bin",
         "ICON_1-TEXT": "befindet sich in",
         "ICON_2-TEXT": "offen für Arbeit",
@@ -93,7 +93,7 @@
         "TEXT_6-2":"Impressum von"
     },
     "PRIVACY":{
-        "TITLE": "Datenschutzerklärung",
+        "TITLE": "Datenschutz",
         "SUBTITLE_1":"1. Allgemeine Hinweise",
         "TEXT_1":"Der Schutz Ihrer personenbezogenen Daten ist mir ein wichtiges Anliegen. Ich verarbeite Ihre personenbezogenen Daten ausschließlich im Einklang mit den geltenden Datenschutzvorschriften, insbesondere der Datenschutz-Grundverordnung (DSGVO).",
         "SUBTITLE_2":"2. Verantwortlicher",
