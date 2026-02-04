@@ -8,7 +8,7 @@
     flex-direction: column;
     justify-content: flex-end;
     &-right{
-        padding-left: 150px;  
+      /*  padding-left: 150px;  */
     }
     & h3{
         color: #5988FF;
@@ -45,6 +45,11 @@
   transform: translateY(-15px); 
 }
 
+.work-polo{
+  display: flex;
+  align-items: flex-end;
+}
+
 
 .section-header{
     margin-bottom: 60px;
@@ -71,7 +76,7 @@
 
 .section-left{
     align-items: flex-end;
-    padding-right: 150px;
+   /* padding-right: 150px; */
     & p{
         text-align: right;
     }
@@ -201,6 +206,10 @@
     .work-section{
        text-align: center;
     }
+    .work-polo{
+  display: flex;
+  align-items: center;
+}
     .section-reverse{
         flex-direction: column-reverse;
 

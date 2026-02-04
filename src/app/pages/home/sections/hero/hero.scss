@@ -73,6 +73,10 @@
   }
 }
 
+.hero-section{
+  min-height: calc(100vh - 100px);
+}
+
 @keyframes scrollLine{
   0%   { transform: scaleY(0); opacity: .2; }
   100% { transform: scaleY(1); opacity: 1; }
