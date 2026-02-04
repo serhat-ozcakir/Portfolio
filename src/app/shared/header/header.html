@@ -11,14 +11,14 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="#about" class="nav-link" type="button" aria-current="page">{{ 'NAV.ABOUT' | translate
+                    <a  (click)="navigate('about', $event)" href="#about" class="nav-link" type="button" aria-current="page">{{ 'NAV.ABOUT' | translate
                         }}</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#skills" class="nav-link" type="button">{{ 'NAV.SKILLS' | translate }}</a>
+                    <a  (click)="navigate('skills', $event)" href="#skills" class="nav-link" type="button">{{ 'NAV.SKILLS' | translate }}</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#work" class="nav-link" type="button">{{ 'NAV.WORK' | translate }}</a>
+                    <a  (click)="navigate('work', $event)" href="#work" class="nav-link" type="button">{{ 'NAV.WORK' | translate }}</a>
                 </li>
                 <li class="nav-item  d-flex align-items-center justify-content-center">
                     <a class="nav-link" [class.nav-link_active]="activeLang === 'de'" (click)="useLanguage('de')"
