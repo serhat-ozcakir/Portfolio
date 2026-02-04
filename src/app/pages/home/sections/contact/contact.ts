@@ -55,7 +55,6 @@ export class Contact {
   formSubmit(): void {
     this.userForm.markAllAsTouched();
     if (this.userForm.invalid) { return; }
-    console.log(this.userForm.value);
     this.isSending = true;
     this.sentMessage = null;
 

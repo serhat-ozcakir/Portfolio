@@ -8,6 +8,7 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
   templateUrl: './header.html',
   styleUrl: './header.scss',
 })
+
 export class Header implements OnInit {
 
   activeLang: 'de' | 'en' = 'en';
@@ -32,6 +33,17 @@ export class Header implements OnInit {
     this.menuToggle.emit(this.isOpen)  
   }
 
+  navigate(id:string, event:Event){
+    event.preventDefault();
+    this.closeMenu();
+    setTimeout(() => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }, 200);
+  }
+
 closeMenu(){
   this.isOpen = false;
   this.menuToggle.emit(false);
@@ -43,9 +55,6 @@ useLanguage(lang: 'de' | 'en'){
   this.activeLang = lang
   localStorage.setItem('lang', lang);
 }
-
-
-
 
   @HostListener('window:resize', [])
   onResize() {
