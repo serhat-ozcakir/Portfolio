@@ -8,15 +8,24 @@ import { TranslateModule } from '@ngx-translate/core';
   styleUrl: './work.scss',
 })
 export class Work {
-  gitHub(){
-    window.open("https://github.com/serhat-ozcakir", "_blank");
-  }
-  
+
   elPolo(){
-    window.open("https://oezcakir-serhat.developerakademie.net/El%20Pollo%20Locco/index.html", "_blank");
+    window.open("https://serhat-oezcakir.de/El-Pollo-Locco/", "_blank");
+  }
+  gitHubElPollo(){
+    window.open("https://github.com/serhat-ozcakir/El-Pollo-Locco.git", "_blank");
   }
 
   pokedex(){
-    window.open("https://oezcakir-serhat.developerakademie.net/Pokedex/index.html", "_blank");
+    window.open("https://serhat-oezcakir.de/Pokedex/", "_blank");
+  }
+  gitHubPokedex(){
+     window.open("https://github.com/serhat-ozcakir/Pokemon.git", "_blank");
+  }
+  join(){
+    window.open("https://serhat-oezcakir.de/join/", "_blank");
+  }
+  gitHubJoin(){
+    window.open("https://github.com/serhat-ozcakir/Join.git", "_blank");
   }
 }
