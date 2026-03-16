@@ -20,42 +20,66 @@
 .friend-cards{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
     margin-top: 30px;
+}
 
-
+.friend-cards-div{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
 }
 
 .friend-card{
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: start;
-        &__name{
+    text-align: center;
+    max-width: 315px;
+    width: 100%;
+    height: 100%;
+    
+    &__title{
+        width: 100%;
+        min-height: 65px; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    &__name{
         color: white;
-        font-size: 20px;
+        font-size: 23px;
         font-weight: 700;
         font-family: 'Montserrat';
+        margin: 0;
+        line-height: 1.2;
     }
+
     &__position{
         color: #EAF0FF;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 400;
         font-family: 'Montserrat';
+        margin: 8px 0 0 0;
+        line-height: 1.2;
     }
+
     &__quote{
         color: #EAF0FF;
-        font-size: 14px;
-        margin-top: 10px;
-        text-align: justify;
+        font-size: 16px;
+        margin-top: 18px;
+        text-align: center;
         font-weight: 400;
-        font-family: 'Montserrat';        
+        font-family: 'Montserrat';
     }
 }
 
 @media screen and (max-width: 991px) {
     .friend-cards{
         flex-direction: column;
+        align-items: center;
         gap: 20px;
     }
     
@@ -75,5 +99,8 @@
     }
     .section-title__subtitle{
         font-size: 18px;  
+    }
+    .friend-card__quote{
+        text-align: center;
     }
 }
