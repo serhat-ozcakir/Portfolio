@@ -1,3 +1,4 @@
+
 .right-section {
   display: flex;
   flex-direction: column;
@@ -24,7 +25,7 @@
 
   &__up{
     margin-top: 100px;
-    padding-left: 10px;
+    padding-left: 48px;
   }
 
   &__down {
@@ -73,7 +74,21 @@
   }
 }
 
+.hero-img {
+  width: min(500px, 100%);
+  height: auto;
+  display: block;
+}
+
+/*.hero-wrap {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-left: 24px;
+  padding-right: 24px;
+} */
+
 .hero-section{
+ min-height: calc(100svh - 100px); 
   min-height: calc(100vh - 100px);
 }
 
@@ -84,6 +99,7 @@
 
 .hero-scroll{
   display: none;
+  position: absolute;
 }
 
 .letters span{
@@ -101,28 +117,36 @@
 
 
 
-
-@media (max-width: 991px) {
+@media (max-width: 992px) {
 
   .right-section__subtitle{
     color: white;
+    font-size: 25px;
   }
   .right-section__title{
     color: white;
+    font-size: 65px;
   }
   .right-section__up{
     padding-left: 0px;
+    padding-right: 28px;
+    margin-top: 0px !important;
+    transform: translateX(-80px);
+    padding-top: 60px;
   }
   .hero-scroll{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: flex-end;
     bottom: 20px;
-    left: 50%;
+    left: auto;
+    right: -20px;
     transform: translateX(-50%);
     width: 40px;
-    
     animation: bounce 2s infinite;
+    height: 100%;
   }
+ 
 
   @keyframes bounce {
     0%, 100% {
@@ -134,18 +158,51 @@
   }
   .hero-section{
     flex-direction: column-reverse;
+    display: flex;
+    justify-content: space-between;
+
   }
   .right-section__down{
     display: none;
   }
 }
 
+@media (max-width: 767px) {
+    .right-section__up{
+    transform: translateX(-50px);
+    padding-top: 60px;
+  }
+}
+
 @media (max-width: 576px) {
   .right-section__title {
-    font-size: 47px;
+    font-size: 50px;
   }
 
   .right-section__subtitle {
-    font-size: 23px;
+    font-size: 21px;
+  }
+   .right-section__up{
+    transform: translateX(-20px);
+    margin-top: 0px;
+       padding-top: 80px;
+  }
+  .hero-scroll{
+    right: -5px;
+  }
+}
+
+@media (max-width: 380px) {
+    .right-section__up{
+      padding-right: 0;
+      transform: translateX(-10px);
+      padding-top: 120px;
+      
+    }
+      .right-section__title {
+    font-size: 42px;
+  }
+    .right-section__subtitle {
+    font-size: 19px;
   }
 }
