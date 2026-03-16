@@ -58,7 +58,14 @@
     font-size: 25px;
     color: #5988FF;
 }
-
+@media screen and (min-width:992px) and (max-width:1240px){
+   .nav-item {
+    margin-left: 0;
+    } 
+    .nav-link{
+        font-size: 20px;
+    }
+}
 @media screen and (max-width:991px) {
     .navbar-collapse {
         display: flex;
