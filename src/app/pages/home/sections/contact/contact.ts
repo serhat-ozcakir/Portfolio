@@ -1,5 +1,5 @@
 declare const bootstrap: any;
-
+import { AbstractControl, ValidationErrors, ValidatorFn } from '@angular/forms';
 import { Component, ElementRef, ViewChild } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { RouterLink } from '@angular/router';
@@ -8,6 +8,14 @@ import emailjs from '@emailjs/browser';
 import { emailJsSecret } from '../../../../../environments/emailjs.secret';
 
 
+export function emailDomainValidator(allowedDomains: string[] = ['.de', '.com']): ValidatorFn {
+  return (control: AbstractControl): ValidationErrors | null => {
+    const value = (control.value ?? '').toString().trim().toLowerCase();
+    if (!value) return null;
+    const isValid = allowedDomains.some((item) => value.endsWith(item));
+    return isValid ? null : { invalidDomain: { allowed: allowedDomains } };
+  };
+}
 
 
 @Component({
@@ -30,15 +38,15 @@ export class Contact {
   userForm = new FormGroup({
     name: new FormControl('', {
       validators: [Validators.required, Validators.minLength(3)],
-      updateOn: 'blur',
+      updateOn: 'change',
     }),
     email: new FormControl('', {
-      validators: [Validators.required, Validators.email],
-      updateOn: 'blur',
+      validators: [Validators.required, Validators.email, emailDomainValidator(['.de', '.com'])],
+      updateOn: 'change',
     }),
     message: new FormControl('', {
       validators: [Validators.required],
-      updateOn: 'blur',
+      updateOn: 'change',
     }),
     completed: new FormControl(false, {
       nonNullable: true,
