@@ -33,7 +33,7 @@
         "PROJECT_3":"Eine interaktive Pokémon-Karte, die durch eine API gesteuert wird und es ermöglicht, Typen, Werte und alternative Formen schnell und visuell zu erkunden."
     },
     "FRIENDS":{
-        "TITLE": "Brauchen Sie einen Teamplayer?",
+        "TITLE": "Brauchst du einen Teamplayer?",
         "SUBTITLE": "Hier ist, was meine Kollegen über mich gesagt haben",
         "CARD_POSITION":"Projekt",
             "CARD_1-TEXT":"‘’Serhat hat mich durch seine freundliche Art, seinen ausgeprägten Teamgeist und seine gewissenhafte Arbeitsweise beeindruckt. Er geht Aufgaben mit großer Sorgfalt, Präzision und Engagement an, was ihn zu einem verlässlichen Mitwirkenden in kollaborativen Projekten macht. Darüber hinaus macht seine positive und sympathische Persönlichkeit die Zusammenarbeit mit ihm besonders angenehm. Ich kann Serhat jedem Team, das einen engagierten und zuverlässigen Entwickler sucht, uneingeschränkt empfehlen.‘’",
@@ -51,12 +51,12 @@
     },
     "CONTACT":{
         "TITLE": "Kontakt",
-        "SUBTITLE": "Haben Sie ein Problem zu lösen?",
+        "SUBTITLE": "Hast du ein Problem zu lösen?",
         "TEXT":"Ich interessiere mich für Frontend-Rollen, in denen ich reale Probleme lösen, im Team zusammenarbeiten und durch durchdachte, nutzerzentrierte Entwicklung echten Mehrwert schaffen kann, indem Ideen in sinnvolle digitale Erlebnisse verwandelt werden.",
         "TEXT-2":"dass Sie durch Ihre Arbeit einen Mehrwert für ihre Projekte schaffen ",
         "TEXT-3":" werden.",
-        "INFO":"Benötigen Sie einen Frontend-Entwickler?",
-        "INFO-2":"Kontaktieren Sie mich!",
+        "INFO":"Benötigst du einen Frontend-Entwickler?",
+        "INFO-2":"Kontaktiere mich!",
         "MESSAGE-1":"Deine Name",
         "MESSAGE-2":"Deine Email",
         "MESSAGE-3":"Deine Nachricht",
